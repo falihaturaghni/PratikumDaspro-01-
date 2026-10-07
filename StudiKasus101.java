@@ -22,6 +22,30 @@ public class StudiKasus101 {
     totalHarga = jumlahCup * hargaPerCup;
     diskon = 0;
 
+    if (totalHarga >= 1000000) {
+        diskon = totalHarga * 10 / 100;
+    }
+
+    //Hitung total yg harus dibayar
+    totalBayar = totalHarga - diskon;
+
+   // Output total harga, diskon, dan total bayar
+        System.out.println("\n=== STRUK PEMBAYARAN ===");
+        System.out.println("Total Harga : Rp " + totalHarga);
+        System.out.println("Diskon      : Rp " + diskon);
+        System.out.println("Total Bayar : Rp " + totalBayar);
+
+        // Logika pembayaran dan kembalian
+        if (uangBayar >= totalBayar) {
+            kembalian = uangBayar - totalBayar;
+            System.out.println("Kembalian   : Rp " + kembalian);
+        } else {
+            kurang = totalBayar - uangBayar;
+            System.out.println("Uang tidak cukup, kurang Rp " + kurang);
+        }
+
+        sc.close();
+
     }
 }
 
