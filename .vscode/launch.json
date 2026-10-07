@@ -9,6 +9,13 @@
             "name": "StudiKasus201",
             "request": "launch",
             "mainClass": "StudiKasus201",
+            "projectName": "PratikumDaspro-01-_3d9d788"
+        },
+        {
+            "type": "java",
+            "name": "StudiKasus201",
+            "request": "launch",
+            "mainClass": "StudiKasus201",
             "projectName": "PratikumDaspro-01-_6b1d2cfd"
         },
         {
