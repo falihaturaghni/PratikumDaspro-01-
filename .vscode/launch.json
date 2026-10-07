@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StudiKasus201",
+            "request": "launch",
+            "mainClass": "StudiKasus201",
+            "projectName": "PratikumDaspro-01-_6b1d2cfd"
+        },
+        {
+            "type": "java",
             "name": "StudiKasus101",
             "request": "launch",
             "mainClass": "StudiKasus101",
